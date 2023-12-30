@@ -1,0 +1,28 @@
+{
+  "name": "@acfatah/es6-module-starter",
+  "version": "0.0.1",
+  "description": "An ES6 module starter.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vitest",
+    "test": "npm run lint && vitest run",
+    "lint": "standard src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acfatah/es6-module-starter.git"
+  },
+  "keywords": [],
+  "author": "Achmad F. Ibrahim <acfatah@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acfatah/es6-module-starter/issues"
+  },
+  "homepage": "https://github.com/acfatah/es6-module-starter#readme",
+  "devDependencies": {
+    "standard": "^17.1.0",
+    "vitest": "^1.1.0"
+  }
+}
+
